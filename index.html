@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tarun Kumar | Network Engineer</title>
+<meta name="description" content="Network automation, network security and AI for NetOps. Free, reproducible lab projects.">
+<style>
+  :root {
+    --bg: #0b1220; --panel: #121b2e; --line: #22304d;
+    --text: #e6edf7; --muted: #93a4c3; --accent: #4fc3f7; --accent2: #7ee787;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 72px 0 40px; }
+  .tag { color: var(--accent2); font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 14px; }
+  h1 { font-size: clamp(2rem, 6vw, 3.2rem); margin: 8px 0 12px; line-height: 1.1; }
+  .lead { color: var(--muted); max-width: 640px; font-size: 1.1rem; }
+  .links { margin-top: 20px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .btn { border: 1px solid var(--line); background: var(--panel); padding: 8px 16px; border-radius: 8px; color: var(--text); }
+  .btn:hover { border-color: var(--accent); text-decoration: none; }
+  h2 { font-size: 1.3rem; margin: 48px 0 16px; border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+  .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+  .card p { margin: 0 0 12px; color: var(--muted); font-size: .95rem; }
+  .pill { display: inline-block; font-size: 12px; padding: 2px 8px; margin: 0 6px 6px 0;
+    border: 1px solid var(--line); border-radius: 999px; color: var(--muted);
+    font-family: ui-monospace, Menlo, Consolas, monospace; }
+  .status { font-size: 12px; color: var(--accent2); font-family: ui-monospace, Menlo, Consolas, monospace; }
+  .soon { color: var(--muted); }
+  ul.skills { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  ul.skills li { color: var(--muted); }
+  ul.skills b { color: var(--text); }
+  footer { margin: 64px 0 40px; color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="tag">$ whoami</div>
+    <h1>Tarun Kumar</h1>
+    <p class="lead">Network Engineer with 8+ years across banking, telecom and enterprise IT. I build free, reproducible lab projects in network automation, network security and AI for NetOps.</p>
+    <div class="links">
+      <a class="btn" href="https://github.com/YOUR-USERNAME">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a>
+      <a class="btn" href="mailto:tarunkumar.network@gmail.com">Email</a>
+    </div>
+  </header>
+
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="status">PROJECT 1 · IN PROGRESS</div>
+      <h3>netauto-lab</h3>
+      <p>Multi-vendor lab with templated configs, Git backups, drift detection and CI compliance checks on every pull request.</p>
+      <span class="pill">Containerlab</span><span class="pill">Nornir</span><span class="pill">NAPALM</span><span class="pill">Jinja2</span><span class="pill">GitHub Actions</span><br>
+      <a href="https://github.com/YOUR-USERNAME/netauto-lab">View repo</a>
+    </div>
+    <div class="card soon">
+      <div class="status">PROJECT 2 · COMING SOON</div>
+      <h3>firewall-rulebase-auditor</h3>
+      <p>Finds shadowed, unused and overly broad rules, then produces a risk-scored report.</p>
+      <span class="pill">Python</span><span class="pill">nftables</span><span class="pill">Reports</span>
+    </div>
+    <div class="card soon">
+      <div class="status">PROJECT 3 · COMING SOON</div>
+      <h3>ai-netops-assistant</h3>
+      <p>Local LLM with RAG and read-only MCP tools that explains lab outages. Human approval for any change.</p>
+      <span class="pill">Ollama</span><span class="pill">RAG</span><span class="pill">MCP</span>
+    </div>
+  </div>
+
+  <h2>What I work with</h2>
+  <ul class="skills">
+    <li><b>Routing and switching:</b> BGP, OSPF, EIGRP, VXLAN, Cisco, Arista, Aruba CX</li>
+    <li><b>Security:</b> Palo Alto, Check Point, Fortinet, Zscaler, Zero Trust</li>
+    <li><b>Operations:</b> SolarWinds, Splunk, NetFlow, Wireshark, ServiceNow, change management</li>
+    <li><b>Certifications:</b> CCNA, CCNP</li>
+  </ul>
+
+  <footer>All projects use lab or synthetic data only. Nothing here comes from any employer.</footer>
+</div>
+</body>
+</html>
